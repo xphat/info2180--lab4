@@ -55,7 +55,7 @@ window.onload = function(){
 	   if (stts.innerHTML == "Move your mouse over the \"S\" to begin.")
 	   {
 		   haslost = true;
-		   stts.innerHTML = "You Lose - Cheater!!"
+		   stts.innerHTML = "You Lose - Cheater!!!"
 		   for (var i = 0; i < b.length; i++)
 			{
 			   b[i].classList.add("youlose");
