@@ -52,7 +52,7 @@ window.onload = function(){
    //function to catch the cheaters... which runs on mouseleave actionListener above...
    function cheater()
    {
-	   if (stts.innerHTML != "You Win!")
+	   if (stts.innerHTML == "Move your mouse over the \"S\" to begin.")
 	   {
 		   haslost = true;
 		   stts.innerHTML = "You Lose - Cheater!!"
